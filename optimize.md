@@ -60,3 +60,8 @@ Unityのプロジェクトに `.wav` や `.mp3` 形式のオーディオファ�
 ![result](images/result.png "result")
 
 上のスクリーンショットはモノラルデータですが、ここまで圧縮が出来ています。
+
+---
+
+Copylight(c) 2019 Azurite
+
