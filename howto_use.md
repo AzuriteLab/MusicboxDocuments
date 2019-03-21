@@ -36,6 +36,10 @@ Import前にVRC SDKを取り込んでいないと組み込んである `VRC_Trig
 
 `MusicBox_Production_Original.prefab` というprefabもありますが、これはわたしのオリジナル曲をあらかじめ設定したものです。
 
+## ジュエリーボックスの扱いについて
+
+赤い部分はジュエリーボックスになっていますので、Unity上でアクセサリのオブジェクトをいい感じに配置してそれっぽく見えるようにするといいかんじです。
+
 ---
 
 Copylight(c) 2019 Azurite
