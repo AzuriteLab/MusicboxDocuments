@@ -28,7 +28,7 @@
 
 そして、`MusicBoxDrivingMechanism` ゲームオブジェクトの位置を外箱基準で合わせます
 
-![mmbox](images/mmbox.png "mmbox")
+![mmbox](images/customize_mbox/mmbox.png "mmbox")
 
 これで改変は完了です。
 
