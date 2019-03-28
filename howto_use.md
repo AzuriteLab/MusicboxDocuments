@@ -37,8 +37,6 @@ MusicBox
  |  |- MusicBox2k : 2Kマテリアル設定（非推奨）
  |  `- MusicBox4k : 4Kマテリアル設定（推奨） 
  |- FBX : FBXファイル類
- |  |- OLD : 旧番のFBX類
- |  ...
  |- Thirdparty : モダンデザイン版に適用しているお休みさんのガラスシェーダが含まれます
  |- OLD : 旧番のprefabが格納されています
  |- MusicBox.prefab : 宝石箱と機構を統合し、各種Trigger設定済みのprefab（G線上のアリア）
