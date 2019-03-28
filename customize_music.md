@@ -24,12 +24,11 @@
 `Hierarchy` の中に取り込んだ `MusicBox` ※の中の `MusicBoxDrivingMechanism` 直下に `AudioSource` というオーディオソースがあります。
 これが、実際の楽曲を扱うためのオーディオソースになります。
 
-![hierarchy-as](images/customize/hierarchy_select_audio_source.png "hierarchy-as")
+![hierarchy-as](images/customize_music/hierarchy_select_audio_source.png "hierarchy-as")
 
-こちらを選択すると `Inspector` にオーディオソースの設定が表示されますので、下記の赤い枠線で示されるプロパティに、
-先ほど取り込んだオーディオクリップを設定してください。
+こちらを選択すると `Inspector` にオーディオソースの設定が表示されますので、`VRC_Audio Bank`コンポーネントの中にある、下記の選択されているプロパティに先ほど取り込んだオーディオクリップを設定してください。
 
-![inspector-as](images/customize/inspector_audio_source_selected.png "inspector-as")
+![inspector-as](images/customize_music/inspector_audio_source_selected.png "inspector-as")
 
 設定することにより、オルゴールが奏でる曲の対象が変わります。
 これで、曲の変更は完了です。

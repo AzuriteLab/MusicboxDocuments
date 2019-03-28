@@ -14,6 +14,8 @@
 ご自身で制作された（またはどこかにあった）外箱のFBXやprefabをHierarchyにドロップしてゲームオブジェクトを作成します。
 ここではプリセットにある `ModernMusicBox.fbx` を取り込んでいます。
 
+![hierarchy_mmbox](images/customize_mbox/hierarchy_mmbox.png "hierarchy_mmbox")
+
 ### オルゴール機構のゲームオブジェクトをHierarchyに作成する
 
 `MusicBoxDrivingMechanism.prefab` をHierarchyにドロップし、オルゴール機構のゲームオブジェクトを生成します。
@@ -22,13 +24,17 @@
 
 前項で生成された `MusicBoxDrivingMechanism` ゲームオブジェクトを外箱のゲームオブジェクト直下に配置します。
 
+![hierarchy_mbdm_in_mmbox](images/customize_mbox/hierarchy_mbdm_in_mmbox.png "hierarchy_mbdm_in_mmbox")
+
 そして、`MusicBoxDrivingMechanism` ゲームオブジェクトの位置を外箱基準で合わせます
+
+![mmbox](images/mmbox.png "mmbox")
 
 これで改変は完了です。
 
 宝石箱のような蓋の開閉と再生機構を連携させる方法は中級者向きのため、`MusicBox.prefab` の中身を参考にしてください。
-`MusicBox`の`VRC_Trigger`と、`MusicBoxDrivingMechanism`の`VRC_Trigger`同士で`SetGameObjectActive`アクションにてオブジェクトの
-on/offを行うことによって実現しています。
+`MusicBox`の`VRC_Trigger`と、`MusicBoxDrivingMechanism`の`VRC_Trigger`同士で`SetGameObjectActive`アクションにてオブジェクトのon/offを行うことによって実現しています。
+(蓋の開閉用Triggerは`MusicBox`の`upper_box`ゲームオブジェクト直下にあります)
 
 ---
 

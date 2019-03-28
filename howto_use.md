@@ -49,6 +49,8 @@ MusicBox
  `- ModernMusicBox_Original.prefab : ケースと機構を統合し、各種Trigger設定済みのprefab（オリジナル曲）
 ```
 
+![in_asset](images/description/in_asset.png "in_asset")
+
 ## 使い方
 
 `MusicBox.unitypackage` をUnityのProjectへImportします。
