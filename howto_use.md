@@ -67,6 +67,23 @@ Import前にVRC SDKを取り込んでいないと組み込んである `VRC_Trig
 また、`MusicBoxDrivingMechanism.prefab` という改変用に機構を分離したprefabも用意しました。
 こちらの改変方法については新設の [オルゴールそのものの改変方法](customize_mbox.md) を参照してください。
 
+## 音量・音の範囲を調整する方法
+
+VRChatのアップデートにより `ONSPAudioSource` は使えなくなり、代わりに `VRC_SpatialAudioSource` が登場しました。<br>
+オルゴールの機構でも遅くなりましたが `v2020.1.1` へのアップデートへ伴い `VRC_SpatialAudioSource` をサポートしました。
+
+![spatial_audio_source](images/spatial_audio_source.png "spatial_audio_source")
+
+|プロパティ名|説明|
+|:-|:-|
+|`Gain`|音量です。デフォルトは10dB（デシベル）で、アバターに組み込む場合はこれが最大となります（オルゴールはアバターではありませんが）|
+|`Far`|音がどこまで届くかです。デフォルトで40mです。アバターではこれが最大値となります。|
+|`Near`|音が減衰し始める距離です。公式では0mを指定することを推奨されているようです。|
+|`Volumetric Radius`|オーディオソースは通常、点として扱われますが、これを設定すると"領域"として扱われるようになります。特殊な用途以外はこの値を用いることは推奨されていません。この値は常に`Far`より小さい必要があります。|
+|`Use AudioSource Valume Curve`|このプロパティを有効にすることで`AudioSource`の`3D Sound Settings`が有効になります。|
+|`Enable Spatialization`|このプロパティを無効にすると標準の `inverse-square falloff curve` に基づく音の減衰処理が無効になり、`AudioSource` の空間設定が有効になります。|
+
+詳しくは [ここ](https://docs.vrchat.com/docs/vrc_spatialaudiosource) にて仕様の詳細を確認することが出来ます。
 
 ## ジュエリーボックスの扱いについて
 
