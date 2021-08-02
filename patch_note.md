@@ -4,6 +4,10 @@
 
 ## 変更履歴
 
+### ver 2021.08.02.0
+
+* VRCSDK3（UDON）サポート
+
 ### ver 2020.04.02.0
 
 * `VRC_SpatialAudioSource`のサポート

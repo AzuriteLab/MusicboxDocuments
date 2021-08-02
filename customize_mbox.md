@@ -36,6 +36,8 @@
 `MusicBox`の`VRC_Trigger`と、`MusicBoxDrivingMechanism`の`VRC_Trigger`同士で`SetGameObjectActive`アクションにてオブジェクトのon/offを行うことによって実現しています。
 (蓋の開閉用Triggerは`MusicBox`の`upper_box`ゲームオブジェクト直下にあります)
 
+UDON版の実装に関してはTriggerの内部処理を簡単に移植したものなのでMusicBox_UDONフォルダ中にあるUSharpScriptsフォルダに配置されたC#ソースファイル群を参照してください。
+
 ---
 
 Copylight(c) 2019 Azurite
